@@ -94,6 +94,12 @@ const linksList = [
     link: 'https://awesome.quasar.dev'
   },
   {
+    title: 'Vue 기초 문법',
+    caption: 'Vue 핵심가이드',
+    icon: 'school',
+    link: '/vue'
+  },
+  {
     title: 'Shopping List',
     caption: 'vue 실습 1',
     icon: 'code',

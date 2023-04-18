@@ -11,7 +11,6 @@
           @click="toggleLeftDrawer"
         />
 
-        // 타이틀에 메인페이지로 링크 걸기
         <q-toolbar-title>
           <q-btn to="/" label="Quasar App" class="text-subtitle1" unelevated></q-btn>
         </q-toolbar-title>
@@ -101,9 +100,15 @@ const linksList = [
   },
   {
     title: 'Shopping List',
-    caption: 'vue 실습 1',
+    caption: 'vue component 실습',
     icon: 'code',
     link: '/shop'
+  },
+  {
+    title: 'todo',
+    caption: 'vue + store 실습',
+    icon: 'home',
+    link: '/todo'
   },
 ]
 
